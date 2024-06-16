@@ -1,0 +1,7 @@
+.tri-color{
+
+    background: #FF972F;
+    background: linear-gradient(to right, #FF972F 0%, #FFFFFF 47%, #1CC15B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
