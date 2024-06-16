@@ -7,7 +7,7 @@ function HomeSecuritySection() {
           <div className="flex flex-col w-3/12 max-md:w-full">
             <img
               loading="lazy"
-              src="../images/complete-home-left.png"
+              src="./images/complete-home-left.png"
               alt=""
               className="grow shrink-0 mt-16 max-w-full aspect-[0.67] w-[313px] max-md:mt-10"
             />
@@ -16,7 +16,7 @@ function HomeSecuritySection() {
             <div className="flex overflow-hidden relative z-10 flex-col grow items-start py-20 pr-20 shadow-sm min-h-[531px] max-md:mt-10 max-md:max-w-full">
               <img
                 loading="lazy"
-                src="../images/with-wave-n.png"
+                src="./images/with-wave-n.png"
                 alt=""
                 className="object-cover absolute inset-0 size-full"
               />

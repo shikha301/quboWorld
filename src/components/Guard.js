@@ -19,18 +19,18 @@ const Guard = () => {
         </div>
         <div className="flex justify-between mt-10 max-w-full text-xs  text-white whitespace-nowrap w-[372px] max-md:mt-10">
           <div>
-            <img src="../images/safe-home-1.png" className='w-20' alt="" />
+            <img src="./images/safe-home-1.png" className='w-20' alt="" />
             <p className='text-center mt-2'>Cold</p>
         </div>
           <div>
-          <img src="../images/safe-home-2.png" className='w-20' alt="" />
+          <img src="./images/safe-home-2.png" className='w-20' alt="" />
             <p className='text-center mt-2'>Heat</p>
           </div>
           <div> 
-            <img src="../images/safe-home-3.png" className='w-20' alt="" />
+            <img src="./images/safe-home-3.png" className='w-20' alt="" />
             <p className='text-center mt-2'>Rain</p></div>
           <div> 
-            <img src="../images/safe-home-4.png" className='w-20' alt="" />
+            <img src="./images/safe-home-4.png" className='w-20' alt="" />
             <p className='text-center mt-2'>Dust</p></div>
         </div>
       </div>

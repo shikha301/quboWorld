@@ -2,19 +2,19 @@ import * as React from "react";
 
 const featuresLeft = [
   {
-    imgSrc: "../images/exp-1.png",
+    imgSrc: "./images/exp-1.png",
     imgAlt: "Continuous recording icon",
     description: "Continuous recording",
     imgWidth: "82px"
   },
   {
-    imgSrc: "../images/reverse-arrow.png",
+    imgSrc: "./images/reverse-arrow.png",
     imgAlt: "Loop recording icon",
     description: "Loop recording",
     imgWidth: "51px"
   },
   {
-    imgSrc: "../images/exp-3.png",
+    imgSrc: "./images/exp-3.png",
     imgAlt: "Expandable SD card storage icon",
     description: "",
   }
@@ -22,19 +22,19 @@ const featuresLeft = [
 
 const featuresRight = [
   {
-    imgSrc: "../images/exp-4.png",
+    imgSrc: "./images/exp-4.png",
     imgAlt: "Expandable storage icon",
     description: "Expandable SD card storage upto 1 TB",
     imgWidth: "29px"
   },
   {
-    imgSrc: "../images/exp-5.png",
+    imgSrc: "./images/exp-5.png",
     imgAlt: "Encrypted storage icon",
     description: "Encrypted Cloud Storage housed in India",
     imgWidth: "47px"
   },
   {
-    imgSrc: "../images/exp-6.png",
+    imgSrc: "./images/exp-6.png",
     imgAlt: "Antitheft storage icon",
     description: "Antitheft cloud storage",
     imgWidth: "44px"
@@ -87,7 +87,7 @@ function Survillance() {
           </section>
 
           <div className="flex gap-4 mt-20 text-3xl font-semibold tracking-wider text-center capitalize leading-[68px] max-md:flex-wrap max-md:mt-10">
-            <img src="../images/powerfull-wifi-icon.png" alt="Wi-Fi & Ethernet Icon" className="shrink-0 aspect-[1.27] w-[58px]" />
+            <img src="./images/powerfull-wifi-icon.png" alt="Wi-Fi & Ethernet Icon" className="shrink-0 aspect-[1.27] w-[58px]" />
             <span className="flex-auto self-start mt-3 bg-clip-text max-md:max-w-full">Wi-Fi & Ethernet Connectivity</span>
           </div>
         </div>

@@ -1,9 +1,9 @@
 import React,{useEffect, useState} from 'react'
 
 const images = [
-  '../images/app-slide-1.png',
-  '../images/app-slide-2.png',
-  '../images/app-slide-3.png'
+  './images/app-slide-1.png',
+  './images/app-slide-2.png',
+  './images/app-slide-3.png'
 ];
 
 const ImageSlider = () => {

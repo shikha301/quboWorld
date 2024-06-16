@@ -15,7 +15,7 @@ const Security = () => {
             </div>
 
             <div className='mt-10 relative'>
-                <img className="rounded-lg"  src="/images/high-reg.png" alt="" />
+                <img className="rounded-lg"  src="./images/high-reg.png" alt="" />
                 <div class="absolute left-0 top-0 m-6 pl-4 pr-4 border-solid border-2 rounded-lg bg-black	 opacity-25 text-white">Qubo 1080p Full HD</div>
                 <div class="absolute right-0 top-0 m-6 pl-4 pr-4 border-solid border-2 rounded-lg bg-black	 opacity-25 text-white">Other Brands</div>
             </div>
