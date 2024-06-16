@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/quboWorld/static/css/main.f7d93f14.css",
-    "main.js": "/quboWorld/static/js/main.feefca7d.js",
+    "main.js": "/quboWorld/static/js/main.edb19b2a.js",
     "static/js/453.30116bc2.chunk.js": "/quboWorld/static/js/453.30116bc2.chunk.js",
     "static/media/Rectangle-1501.png": "/quboWorld/static/media/Rectangle-1501.25f60f66bca37013d3f0.png",
     "static/media/Rectangle-1538.png": "/quboWorld/static/media/Rectangle-1538.4664805b36c33f998378.png",
@@ -9,11 +9,11 @@
     "static/media/dog.png": "/quboWorld/static/media/dog.b1fe34114563a326686b.png",
     "index.html": "/quboWorld/index.html",
     "main.f7d93f14.css.map": "/quboWorld/static/css/main.f7d93f14.css.map",
-    "main.feefca7d.js.map": "/quboWorld/static/js/main.feefca7d.js.map",
+    "main.edb19b2a.js.map": "/quboWorld/static/js/main.edb19b2a.js.map",
     "453.30116bc2.chunk.js.map": "/quboWorld/static/js/453.30116bc2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7d93f14.css",
-    "static/js/main.feefca7d.js"
+    "static/js/main.edb19b2a.js"
   ]
 }
