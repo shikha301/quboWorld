@@ -1,6 +1,6 @@
 {
   "name": "quobo",
-  "hompage" :"https://shikha301.github.io/quboWorld/",
+  "homepage" :"https://shikha301.github.io/quboWorld/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
