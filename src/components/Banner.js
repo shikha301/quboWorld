@@ -19,10 +19,10 @@ function Banner() {
 
   return (
     <div className="flex flex-col justify-center">
-      <div className="flex overflow-hidden relative flex-col justify-center items-start px-16 w-fullmax-md:px-5 max-md:max-w-full">
+      <div className="flex overflow-hidden relative flex-col max-h-full justify-center items-start h-fpx-16 w-fullmax-md:px-5 max-md:max-w-full">
         <img
           src={images[currentImageIndex]}
-          className="object-cover absolute inset-0 h-full"
+          className="object-cover absolute inset-0 h-full w-full"
         />
         <div className="flex relative flex-col mt-36 mb-32  md:ml-24 max-w-full w-[431px] max-md:my-10">
           <div className="text-7xl font-bold text-white leading-[68px] max-md:max-w-full max-md:text-4xl max-md:leading-10">
