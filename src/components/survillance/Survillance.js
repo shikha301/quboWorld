@@ -52,7 +52,7 @@ const FeatureCard = ({ imgSrc, imgAlt, description, imgWidth }) => (
 function Survillance() {
   return (
     <div className="flex overflow-hidden relative flex-col justify-center items-center px-16 min-h-[783px] max-md:px-5">
-      <img src="../images/house-bg.png" alt="" className="object-cover absolute inset-0 size-full blur-sm" />
+      <img src="./images/house-bg.png" alt="" className="object-cover absolute inset-0 size-full blur-sm" />
       <div className="flex relative justify-center items-center px-16 py-20 w-full max-w-[1440px] max-md:px-5 max-md:max-w-full">
         <div className="flex flex-col items-center mt-3.5 w-full max-w-[1234px] max-md:max-w-full">
           <h1 className="text-5xl font-bold tracking-wider text-center bg-clip-text leading-[68.88px] max-md:max-w-full">Powerful long range outdoor surveillance</h1>
