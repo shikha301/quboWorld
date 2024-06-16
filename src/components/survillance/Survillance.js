@@ -74,7 +74,7 @@ function Survillance() {
               </div>
               
               <figure className="flex md:pt-6 flex-col ml-5 w-[45%] max-md:ml-0 max-md:w-full">
-                <img src="../images/powerfull-gif.gif" alt="Surveillance image" className="self-stretch my-auto w-full aspect-[1.96] max-md:mt-9 max-md:max-w-full" />
+                <img src="./images/powerfull-gif.gif" alt="Surveillance image" className="self-stretch my-auto w-full aspect-[1.96] max-md:mt-9 max-md:max-w-full" />
               </figure>
               
               <div className="flex flex-col ml-5 w-[28%] max-md:ml-0 max-md:w-full">
