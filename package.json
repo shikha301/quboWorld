@@ -2,7 +2,7 @@
   "name": "quobo",
   "hompage" :"https://shikha301.github.io/quboWorld/",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
