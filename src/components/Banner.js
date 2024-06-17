@@ -19,7 +19,7 @@ function Banner() {
   }, []); 
 
   useEffect(() => {
-    setTextOpacity((textOpacity) => (textOpacity === 1 ? 0.5 : 1));
+    setTextOpacity((currentImageIndex) => (currentImageIndex === 0 ? 1 : 0.5));
   }, [currentImageIndex]); 
 
   return (
