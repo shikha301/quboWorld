@@ -8,7 +8,7 @@ function Banner() {
       ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const [textOpacity, setTextOpacity] = useState(1);
+    const [textOpacity, setTextOpacity] = useState(0.5);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -19,7 +19,7 @@ function Banner() {
   }, []); 
 
   useEffect(() => {
-    setTextOpacity((currentImageIndex) => (currentImageIndex === 0 ? 1 : 0.5));
+    setTextOpacity((textOpacity) => (textOpacity === 1 ? 0.5 : 1));
   }, [currentImageIndex]); 
 
   return (
