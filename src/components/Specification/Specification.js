@@ -3,7 +3,7 @@ import * as React from "react";
 function SpecificationItem({ text, src, alt }) {
   return (
     <>
-      <div className="flex gap-3 mt-5 leading-[514%]">
+      <div className="flex gap-3 mt-10 leading-[514%]">
         {src && <img loading="lazy" src={src} alt={alt} className="shrink-0 self-start w-4 aspect-[1.45]" />}
         <div className="flex-auto">{text}</div>
       </div>
@@ -19,27 +19,57 @@ function SpecificationItem({ text, src, alt }) {
 
 function TechnicalSpecifications({ specificationsAndIcons }) {
   return (
-    <section className="flex flex-col px-5">
-      <header className="flex gap-5 px-20 py-9 w-full text-center text-white rounded-xl max-md:flex-wrap max-md:px-5 max-md:max-w-full">
-        <div className="text-2xl font-medium">Technical Specifications</div>
-        <div className="text-5xl max-md:text-4xl">+</div>
-      </header>
-      <h2 className="self-center mt-12 text-4xl font-bold tracking-wider text-center bg-clip-text leading-[69.16px] max-md:mt-10 max-md:max-w-full">
+    <section className="flex flex-col px-5 mt-20">
+      <div id="accordion-collapse" data-accordion="collapse">
+        <h2 id="accordion-collapse-heading-1">
+          <button
+            type="button"
+            className="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-white bg-blue-800 rounded-lg focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:bg-sky-400 dark:text-white gap-3"
+            data-accordion-target="#accordion-collapse-body-1"
+            aria-expanded="true"
+            aria-controls="accordion-collapse-body-1"
+          >
+            <span>Technical Specifications</span>
+            <svg
+              data-accordion-icon=""
+              className="w-3 h-3 rotate-180 shrink-0"
+              aria-hidden="true"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+            </svg>
+          </button>
+        </h2>
+      </div>
+
+      <h2 className="self-center mt-12 text-4xl font-bold text-white text-center bg-clip-text leading-[69.16px] max-md:mt-10 max-md:max-w-full">
         Powerful long range outdoor surveillance
       </h2>
       <h3 className="self-center mt-4 text-3xl font-medium tracking-wide text-center leading-[68.88px] text-neutral-400 max-md:max-w-full">
         Dual Antenna for Long Range Transmission
       </h3>
-      <div className="mt-12 w-full max-md:mt-10 max-md:max-w-full">
+      {/* <div className="mt-12 w-full max-md:mt-10 max-md:max-w-full">
         <div className="flex gap-5 max-md:flex-col max-md:gap-0">
           <section className="flex flex-col w-[27%] max-md:ml-0 max-md:w-full">
             <div className="grow items-start px-8 pt-14 pb-9 mt-24 w-full text-xl font-medium tracking-wide text-white rounded-3xl leading-[72px] max-md:mt-10">
-              <span className="leading-7">Long Range Connected Security</span> <br />
-              Field of View <br />
-              Expandable Storage <br />
-              Weatherproof <br />
-              Multiple Recording Options <br />
-              AI powered features
+              <table class="border-separate border border-slate-400 w-[100%]">
+                <thead>
+                  <tr>
+                    <th class="border border-slate-300 ...">State</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="border border-slate-300 ...">Indiana</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 ...">Ohio</td>
+                  </tr>
+                  <tr>
+                    <td class="border border-slate-300 ...">Michigan</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </section>
           <section className="flex flex-col ml-5 w-[39%] max-md:ml-0 max-md:w-full">
@@ -77,7 +107,9 @@ function TechnicalSpecifications({ specificationsAndIcons }) {
             </div>
           </section>
         </div>
-      </div>
+      </div> */}
+      <div className="flex justify-items-center ">
+      <img src="./images/caomparision-table-m.png" className="w-[70%] " alt="" /></div>
     </section>
   );
 }

@@ -6,7 +6,7 @@ import React from 'react'
 
 const Completesecurity = () => {
     return (
-        <div className='bg-[url(../public/images/with-wave-n.png)] size-full'>
+        <div className='bg-[url(../public/images/with-wave-n.png)] size-full bg-black bg-no-repeat bg-cover'>
         <div className="px-20 pt-20  max-md:px-5 max-md:mb-5">
             <div className="flex gap-5 min-h-screen max-md:flex-col max-md:gap-0">
                 <div className="flex flex-col w-[40%] max-md:ml-0 max-md:w-full">
