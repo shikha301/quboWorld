@@ -8,6 +8,7 @@ function Banner() {
       ];
 
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
+    const [textOpacity, setTextOpacity] = useState(1);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -16,6 +17,10 @@ function Banner() {
 
     return () => clearInterval(interval);
   }, []); 
+
+  useEffect(() => {
+    setTextOpacity((textOpacity) => (textOpacity === 1 ? 0.5 : 1));
+  }, [currentImageIndex]); 
 
   return (
     <div className="flex flex-col justify-center">
@@ -29,9 +34,10 @@ function Banner() {
             Smart Bullet <br />
             Camera
           </div>
-          <div className="mt-8 text-2xl font-semibold leading-10 text-cyan-400 uppercase tracking-[2.4px] max-md:max-w-full">
-            <span className="font-medium text-cyan-400">Your very own</span>{" "}
-            <span className="font-extrabold text-cyan-400">Dark Knight</span>
+          <div className="mt-8 text-2xl font-semibold leading-10 text-cyan-400 uppercase tracking-[2.4px] max-w-[431px] md:max-w-full"
+               style={{ opacity: textOpacity }}>
+            <span className="font-medium">Your very own</span>{" "}
+            <span className="font-extrabold">Dark Knight</span>
           </div>
         </div>
       </div>
@@ -40,4 +46,3 @@ function Banner() {
 }
 
 export default Banner;
-
