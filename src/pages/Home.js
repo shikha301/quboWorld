@@ -11,6 +11,7 @@ import Specification from "../components/Specification/Specification";
 import People from "../components/People";
 import Survillance from "../components/survillance/Survillance";
 import Completesecurity from "../components/Completesecurity";
+import Sbc from "../components/Sbc";
 
 // import Slider from "react-slick";
 // import HomeSecuritySection from "../components/Homesecuritysection";
@@ -28,8 +29,10 @@ function Home() {
         <Survillance/>
         <Qubocamera/>
         <Completesecurity/>
-        <Specification/>
+        <Sbc/>
         <People/>
+        <Specification/>
+        
         {/* <HomeSecuritySection/> */}
         {/* <Slider/> */}
     </div>

@@ -18,7 +18,7 @@ function HomeSecuritySection() {
                 loading="lazy"
                 src="./images/with-wave-n.png"
                 alt=""
-                className="object-cover absolute inset-0 size-full"
+                className="object-cover  absolute inset-0 size-full"
               />
               <h1 className="relative mt-36 text-5xl font-bold text-white bg-clip-text leading-[51px] w-[647px] max-md:mt-10 max-md:max-w-full max-md:text-4xl max-md:leading-10">
                 Complete <br />
