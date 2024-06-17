@@ -1,8 +1,6 @@
 import React from 'react'
 
 const Sbc = () => {
-    return (
-        <div>
             return (
             <div className='size-full bg-black bg-no-repeat bg-cover'>
                 <div className="px-20 pt-20  max-md:px-5 max-md:mb-5">
@@ -44,8 +42,7 @@ const Sbc = () => {
                 </div>
             </div>
             )
-        </div>
-    )
+    
 }
 
 export default Sbc
